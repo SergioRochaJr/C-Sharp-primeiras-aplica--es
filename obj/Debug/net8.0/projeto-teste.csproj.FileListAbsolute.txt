@@ -12,3 +12,4 @@ C:\Users\ModalGR\projeto-teste\obj\Debug\net8.0\refint\projeto-teste.dll
 C:\Users\ModalGR\projeto-teste\obj\Debug\net8.0\projeto-teste.pdb
 C:\Users\ModalGR\projeto-teste\obj\Debug\net8.0\projeto-teste.genruntimeconfig.cache
 C:\Users\ModalGR\projeto-teste\obj\Debug\net8.0\ref\projeto-teste.dll
+C:\Users\ModalGR\projeto-teste\obj\Debug\net8.0\projeto-teste.sourcelink.json

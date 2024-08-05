@@ -47,7 +47,7 @@ void ExibirOpcoesDoMenu()
       break;
     case 3: AvaliarUmaBanda();
       break;
-    case 4: Console.WriteLine("Você escolheu a opção "+opcaoEscolhida);
+    case 4: MediaDaBanda();
       break;
     case -1: Console.WriteLine("buh-bye my funny little fella");
       break;
@@ -121,7 +121,28 @@ void AvaliarUmaBanda()
   }
 }
 
-//ExibirOpcoesDoMenu();
+void MediaDaBanda()
+{
+  Console.Clear();
+  Console.WriteLine("De qual banda quer saber a avaliação?");
+  string nomeDaBanda = Console.ReadLine()!;
+  if (bandasRegistradas.ContainsKey(nomeDaBanda)){
+    List<int> notas = bandasRegistradas[nomeDaBanda];
+    Console.WriteLine(notas.Average());
+    Thread.Sleep(5000);
+    ExibirOpcoesDoMenu();
+  }
+  else
+  {
+      Console.WriteLine($"{nomeDaBanda} não está registrada");
+      Console.WriteLine("Pressione qualquer tecla para voltar ao menu inicial");
+      Console.ReadKey();
+      ExibirOpcoesDoMenu();
+  }
+}
+
+
+ExibirOpcoesDoMenu();
 
 
 // desafio 1
