@@ -1,0 +1,14 @@
+C:\Users\ModalGR\projeto-teste\bin\Debug\net8.0\projeto-teste.exe
+C:\Users\ModalGR\projeto-teste\bin\Debug\net8.0\projeto-teste.deps.json
+C:\Users\ModalGR\projeto-teste\bin\Debug\net8.0\projeto-teste.runtimeconfig.json
+C:\Users\ModalGR\projeto-teste\bin\Debug\net8.0\projeto-teste.dll
+C:\Users\ModalGR\projeto-teste\bin\Debug\net8.0\projeto-teste.pdb
+C:\Users\ModalGR\projeto-teste\obj\Debug\net8.0\projeto-teste.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ModalGR\projeto-teste\obj\Debug\net8.0\projeto-teste.AssemblyInfoInputs.cache
+C:\Users\ModalGR\projeto-teste\obj\Debug\net8.0\projeto-teste.AssemblyInfo.cs
+C:\Users\ModalGR\projeto-teste\obj\Debug\net8.0\projeto-teste.csproj.CoreCompileInputs.cache
+C:\Users\ModalGR\projeto-teste\obj\Debug\net8.0\projeto-teste.dll
+C:\Users\ModalGR\projeto-teste\obj\Debug\net8.0\refint\projeto-teste.dll
+C:\Users\ModalGR\projeto-teste\obj\Debug\net8.0\projeto-teste.pdb
+C:\Users\ModalGR\projeto-teste\obj\Debug\net8.0\projeto-teste.genruntimeconfig.cache
+C:\Users\ModalGR\projeto-teste\obj\Debug\net8.0\ref\projeto-teste.dll
