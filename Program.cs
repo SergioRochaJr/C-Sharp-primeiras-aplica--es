@@ -128,8 +128,9 @@ void MediaDaBanda()
   string nomeDaBanda = Console.ReadLine()!;
   if (bandasRegistradas.ContainsKey(nomeDaBanda)){
     List<int> notas = bandasRegistradas[nomeDaBanda];
-    Console.WriteLine(notas.Average());
+    Console.WriteLine($"\nA avaliação média de {nomeDaBanda} é {notas.Average()}");
     Thread.Sleep(5000);
+    Console.Clear();
     ExibirOpcoesDoMenu();
   }
   else
@@ -137,6 +138,7 @@ void MediaDaBanda()
       Console.WriteLine($"{nomeDaBanda} não está registrada");
       Console.WriteLine("Pressione qualquer tecla para voltar ao menu inicial");
       Console.ReadKey();
+      Console.Clear();
       ExibirOpcoesDoMenu();
   }
 }
